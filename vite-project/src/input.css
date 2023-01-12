@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('./assets/fonts/gilroy-extrabold.0094146-webfont.woff2') format('woff2'),
+         url('./assets/fonts/gilroy-extrabold.0094146-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'gilroylight';
+    src: url('./assets/fonts/gilroy-light.cc7ab55-webfont.woff2') format('woff2'),
+         url('./assets/fonts/gilroy-light.cc7ab55-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
