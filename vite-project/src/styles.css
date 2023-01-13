@@ -419,6 +419,32 @@ video {
   display: none;
 }
 
+html{
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: 'gilroyextrabold';
+
+  src: url('./assets/fonts/gilroy-extrabold.0094146-webfont.woff2') format('woff2'),
+            url('./assets/fonts/gilroy-extrabold.0094146-webfont.woff') format('woff');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'gilroylight';
+
+  src: url('./assets/fonts/gilroy-light.cc7ab55-webfont.woff2') format('woff2'),
+            url('./assets/fonts/gilroy-light.cc7ab55-webfont.woff') format('woff');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -525,16 +551,30 @@ video {
   position: relative;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .block {
   display: block;
 }
 
-.inline {
-  display: inline;
+.flex {
+  display: flex;
 }
 
 .table {
   display: table;
+}
+
+.grid {
+  display: grid;
 }
 
 .contents {
@@ -545,24 +585,60 @@ video {
   display: none;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
 .h-16 {
   height: 4rem;
 }
 
-.h-3 {
-  height: 0.75rem;
+.h-32 {
+  height: 8rem;
 }
 
-.h-0 {
-  height: 0px;
+.w-1\/4 {
+  width: 25%;
 }
 
-.w-auto {
-  width: auto;
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.grow-0 {
+  flex-grow: 0;
+}
+
+.basis-2\/4 {
+  flex-basis: 50%;
+}
+
+.basis-2 {
+  flex-basis: 0.5rem;
+}
+
+.basis-1\/4 {
+  flex-basis: 25%;
+}
+
+.basis-1 {
+  flex-basis: 0.25rem;
 }
 
 .border-collapse {
@@ -577,8 +653,86 @@ video {
   resize: both;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-14 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+}
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-y-2 {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.border-y-0 {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.border-y-\[1px\] {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.border-grey1 {
+  --tw-border-opacity: 1;
+  border-color: rgb(39 39 42 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -586,17 +740,64 @@ video {
   background-color: rgb(29 29 32 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .font-pry {
   font-family: gilroylight;
+}
+
+.font-sec {
+  font-family: gilroyextraBold;
+}
+
+.text-2xl {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.4rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 3rem;
+  line-height: 2.25rem;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
-.text-slate-900 {
+.leading-snug {
+  line-height: 1.375;
+}
+
+.text-white1 {
   --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity));
+  color: rgb(212 212 216 / var(--tw-text-opacity));
+}
+
+.text-white2 {
+  --tw-text-opacity: 1;
+  color: rgb(161 161 170 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -610,33 +811,4 @@ video {
 
 .outline {
   outline-style: solid;
-}
-
-@font-face {
-  font-family: 'gilroyextrabold';
-
-  src: url('./assets/fonts/gilroy-extrabold.0094146-webfont.woff2') format('woff2'),
-         url('./assets/fonts/gilroy-extrabold.0094146-webfont.woff') format('woff');
-
-  font-weight: normal;
-
-  font-style: normal;
-}
-
-@font-face {
-  font-family:'gilroylight';
-
-  src: url('./assets/fonts/gilroy-light.cc7ab55-webfont.woff2') format('woff2'),
-         url('./assets/fonts/gilroy-light.cc7ab55-webfont.woff') format('woff');
-
-  font-weight: normal;
-
-  font-style: normal;
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
 }
