@@ -7,4 +7,6 @@ export default function Footer(){
         <div className='h-32 border-y-[1px] border-grey1'></div>
     </aside>
     )
+
 } 
+
