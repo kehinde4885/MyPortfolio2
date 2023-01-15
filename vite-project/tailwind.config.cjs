@@ -28,7 +28,8 @@ module.exports = {
         'black': 'rgb(29,29,32)',
         'white1': '#d4d4d8',
         'white2': '#a1a1aa',
-        'grey1' : 'rgb(39,39,42)'
+        'grey1' : 'rgb(39,39,42)',
+        'black2' : '#131315'
       }
     },
   },

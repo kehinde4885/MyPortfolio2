@@ -1,10 +1,20 @@
-
-import Photobox from "./Photobox"
+import Photobox from "./Photobox2"
 import Footer from "./Footer"
+
+//import logos from './logo'
+
+import reactlogo from "./assets/react.svg"
+import figma from "./assets/figma.svg"
+import github from "./assets/github.svg"
+import GS from "./assets/GS.svg"
+import netlify from "./assets/netlify.svg"
+import notion from "./assets/notion.svg"
+import tailwind from "./assets/tailwind.svg"
+
 
 function Info(){
     return (
-        
+
     <main className='xl:col-span-5 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 mx-10 '>
         <div className='flex justify-between'>
             <p className='flex text-white1 uppercase text-2xl'>
@@ -26,16 +36,20 @@ function Info(){
         </div>
 
         <div className='md:w-4/5 space-y-16'>
-            <h1 className='2xl:text-6xl lg:text-[4.8rem] md:text-6xl sm:text-[4.8rem] sm:leading-none uppercase text-3xl leading-snug font-sec text-white'>I'm Nico van zyl - an interface architect.</h1>
-            <p className='2xl:text-3xl 2xl:leading-snug md:min-w-fit sm:text-[2.4rem] text-2xl text-white2 leading-snug'>I work with technical founders, 
-                startups and established product teams
-                as your design-driven interface development partner and advisor.
-            </p>
+            <h1 className="2xl:text-6xl lg:text-[4.8rem] md:text-6xl sm:text-[4.8rem] sm:leading-none uppercase text-3xl leading-snug font-sec text-white">the tech i use to build exceptional software.</h1>
+            <div>
+                <ul className="grid grid-cols-2 gap-4">
+                    <li className="px-10 py-16 flex flex-col justify-center items-center space-y-4 bg-black2">
+                        <img src="" alt="" />
+                        <p className="text-2xl text-white1">React</p>
+                    </li>
+                </ul>
+                
+            </div>
         </div>
 
         <nav className='md:flex md:justify-between md:space-y-0 md:items-center text-white space-y-8'>
             <ul className='md:w-4/5 md:justify-between sm:gap-y-6 sm:flex sm:space-y-0 sm:flex-wrap uppercase text-2xl space-y-10'>
-                <li className="md:basis-auto  basis-1/3">about</li>
                 <li className="md:basis-auto  basis-1/3">process</li>
                 <li className="md:basis-auto  basis-1/3">portfolio</li>
                 <li className="md:basis-auto  basis-1/3">tech</li>
@@ -46,18 +60,21 @@ function Info(){
                 <li><i class="fa-brands fa-github"></i></li>
             </ul>
         </nav>
-
-     </main>
+    </main>
 
     )
 }
 
-export default function Home(){
-    return(
+
+export default function About(){
+
+    return (
         <div className="lg:space-y-0 lg:h-screen lg:grid lg:grid-cols-10 Home space-y-16">
             <Photobox/>
             <Info/>
             <Footer/>
         </div>
+
     )
+
 }

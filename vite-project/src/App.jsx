@@ -1,5 +1,6 @@
 
 import Home from "./Home"
+import About from "./About"
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="App bg-black font-pry grid">
 
-      <Home/>
+      <About/>
 
     </div>
   )
