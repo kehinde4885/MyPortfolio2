@@ -1,6 +1,6 @@
 
 import Home from "./Home"
-import About from "./About"
+import About from "./Tech"
 
 
 function App() {

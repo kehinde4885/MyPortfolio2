@@ -5,7 +5,7 @@ import Footer from "./Footer"
 function Info(){
     return (
         
-    <main className='xl:col-span-5 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 mx-10 '>
+    <main className='xl:col-span-5 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 px-10 overflow-y-scroll scrollbar scrollbar-track-transparent scrollbar-thumb-black3'>
         <div className='flex justify-between'>
             <p className='flex text-white1 uppercase text-2xl'>
                 <span>Hi</span>

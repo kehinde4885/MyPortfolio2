@@ -11,12 +11,4 @@ export default function Photobox() {
         </div>
     </div>
     )
-
-   
 }
-
-
-
-
-
-
