@@ -1,6 +1,7 @@
 
 import Home from "./Home"
-import About from "./Tech"
+import Tech from "./Tech"
+import Portfolio from "./Portfolio"
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App bg-black font-pry grid">
 
-      <About/>
+      <Portfolio/>
 
     </div>
   )

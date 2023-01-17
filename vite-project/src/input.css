@@ -23,3 +23,12 @@
         font-style: normal;
     }
 }
+
+
+@layer components {
+    @media (min-width:768px) {
+        .projects li:nth-child(2n+2){
+           transform: translateY(10%);
+        }
+    }
+}

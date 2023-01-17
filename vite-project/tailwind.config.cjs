@@ -30,7 +30,10 @@ module.exports = {
         'white2': '#a1a1aa',
         'grey1' : 'rgb(39,39,42)',
         'black2' : '#131315',
-        'black3' : '#000000'
+        'black3' : '#000000',
+        'cultured' : '#EFF1ED',
+        'metallic' : '#177E89',
+        'marigold' : '#F1A208',
       }
     },
   },
