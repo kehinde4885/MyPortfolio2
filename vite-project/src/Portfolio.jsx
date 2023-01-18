@@ -4,6 +4,8 @@ import Availaible from "./availaible";
 import Footer from "./Footer";
 import { projects } from "./Projects";
 
+import Nav from "./Nav"
+
 
 let projectList = projects.map(project => {
     return (
@@ -37,8 +39,9 @@ function Info(){
                 </ul>
             </div>
 
-        </main>
+            <Nav page='portfolio' />
 
+        </main>
     )
 }
 

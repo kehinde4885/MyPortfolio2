@@ -2,6 +2,7 @@ import Photobox from "./Photobox2"
 import Footer from "./Footer"
 
 import Availaible from "./availaible"
+import Nav from "./Nav"
 
 import reactlogo from "./assets/react.svg"
 import figma from "./assets/figma.svg"
@@ -63,18 +64,7 @@ function Info(){
             </div>
         </div>
 
-        <nav className='md:flex md:justify-between md:space-y-0 md:items-center text-white space-y-8'>
-            <ul className='md:w-4/5 md:justify-between sm:gap-y-6 sm:flex sm:space-y-0 sm:flex-wrap uppercase text-2xl space-y-10'>
-                <li className="md:basis-auto  basis-1/3">process</li>
-                <li className="md:basis-auto  basis-1/3">portfolio</li>
-                <li className="md:basis-auto  basis-1/3">tech</li>
-            </ul>
-            <ul className='flex space-x-8 text-[16px]'>
-                <li><i class="fa-brands fa-dribbble"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
-                <li><i class="fa-brands fa-github"></i></li>
-            </ul>
-        </nav>
+        <Nav page='tech' />
     </main>
 
     )

@@ -20,6 +20,7 @@ export default function Availaible(){
                 </p>
             </div>
         </div>
+
         
     )
 }

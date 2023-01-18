@@ -2,6 +2,8 @@
 import Photobox from "./Photobox2"
 import Footer from "./Footer"
 import Availaible from "./availaible"
+import Nav from "./Nav"
+
 import process from "./assets/process.svg"
 
 
@@ -100,6 +102,8 @@ function Info(){
                 </div>
             </li>
         </ul>
+
+        <Nav page='process'/>
 
     </main>
 
