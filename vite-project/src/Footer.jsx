@@ -7,7 +7,4 @@ export default function Footer(){
             <div className='xl:border-x-2 xl:border-y-0 xl:h-full lg:basis-2/4 h-32 border-y-[1px] border-marigold'></div>
         </aside>
     )
-
-    
-} 
-
+}

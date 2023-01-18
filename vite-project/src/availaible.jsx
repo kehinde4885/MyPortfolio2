@@ -5,7 +5,7 @@ export default function Availaible(){
         <div className='flex justify-between'>
             <p className='flex text-white1 uppercase text-2xl space-x-2'>
                 <span>Hi</span>
-                <span className="sm:hidden">There</span>
+                <span className="sm:flex hidden">There</span>
                 <span>🙋‍♂️</span>
             </p>
             <div className='md:text-xl flex flex-col text-white2 text-xlg uppercase space-y-2'>
@@ -20,5 +20,6 @@ export default function Availaible(){
                 </p>
             </div>
         </div>
+        
     )
 }
