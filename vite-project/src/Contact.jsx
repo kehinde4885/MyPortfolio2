@@ -2,6 +2,7 @@ import Photobox from "./Photobox2";
 import Availaible from "./availaible";
 import Footer from "./Footer";
 import Nav from "./Nav";
+import Form from "./Form";
 
 import about from './assets/about.png'
 
@@ -9,7 +10,7 @@ import about from './assets/about.png'
 function Info(){
     return (
 
-        <main className='xl:col-span-6 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 px-10 overflow-y-scroll scrollbar scrollbar-track-transparent scrollbar-thumb-black2'>
+        <main className='xl:col-span-6 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 px-10 overflow-y-scroll scrollbar-none scrollbar-track-transparent scrollbar-thumb-black2'>
             <Availaible/>
 
             <div className='md:w-4/5 space-y-16'>
@@ -28,14 +29,7 @@ function Info(){
 
             </div>
 
-            <form className="text-white">
-                <h2 className="lg:text-[4.8rem] md:text-6xl md:w-4/5  sm:text-[4.8rem] sm:leading-none uppercase text-3xl leading-snug font-sec text-white">Let us Work Together</h2>
-                <div className="flex flex-col space-y-8 py-8 border-t-[1px] border-white">
-                    <label className="font-sec text-2xl tracking-tighter" htmlFor="name">What's Your Name?</label>
-                    <input className="bg-transparent text-[1.5rem] focus:border-0 focus:ring-transparent" id="name" placeholder="Enter Name" type="text" />
-                </div>
-            </form>
-
+            <Form/>
 
             <Nav page='contact' />
 

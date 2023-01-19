@@ -35,6 +35,7 @@ module.exports = {
         'cultured' : '#EFF1ED',
         'metallic' : '#177E89',
         'marigold' : '#F1A208',
+        'silver' : '#C0c0c0',
       }
     },
   },

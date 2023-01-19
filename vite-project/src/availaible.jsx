@@ -1,4 +1,5 @@
 
+
 export default function Availaible(){
 
     return (
@@ -21,6 +22,6 @@ export default function Availaible(){
             </div>
         </div>
 
-        
+
     )
 }
