@@ -18,7 +18,6 @@ let projectList = projects.map((project,index) => {
 })
 
 
-
 function Info(){
     return (
         <main className='main-component'>

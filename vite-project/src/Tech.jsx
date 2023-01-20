@@ -14,7 +14,6 @@ import tailwind from "./assets/tailwind.svg"
 import vite from "./assets/vitejs.svg"
 
 
-
 function Info(){
     return (
     <main className='main-component'>

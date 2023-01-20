@@ -18,7 +18,6 @@ module.exports = {
       '8xl': ['8rem', { lineHeight: '1' }],
       '9xl': ['9rem', { lineHeight: '1' }],
     },
-
     extend: {
       fontFamily : {
         sec : 'gilroyextraBold',

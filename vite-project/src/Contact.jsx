@@ -7,8 +7,6 @@ import Form from "./Form";
 import about from './assets/about.png'
 
 
-
-
 function Info(){
     return (
 

@@ -2,6 +2,7 @@ import React from 'react'
 
 import head from './assets/head.svg'
 
+
 export default function Photobox() {
 
     return (

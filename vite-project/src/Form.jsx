@@ -38,7 +38,7 @@ export default function Form(){
 
     return (
 
-        <form onSubmit={handleSubmit} className="md:w-4/5 text-white space-y-8">
+        <form onSubmit={handleSubmit} className="md:w-4/5 text-white space-y-8 pt-16">
             <h2 className="lg:text-[4.8rem] md:w-4/5  sm:text-[4.8rem] sm:leading-none uppercase text-3xl leading-snug font-sec text-white">Let us Work Together</h2>
             <div className="w-4/5 flex flex-col space-y-8 py-8 border-t-[1px] border-white">
                 <label className="font-sec text-2xl tracking-tighter" htmlFor="name">What's Your Name?</label>
