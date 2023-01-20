@@ -22,6 +22,5 @@ export default function Availaible(){
             </div>
         </div>
 
-
     )
 }

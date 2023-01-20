@@ -7,11 +7,10 @@ import Nav from "./Nav"
 import process from "./assets/process.svg"
 
 
-
 function Info(){
     return (
 
-    <main className='xl:col-span-6 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 px-10 overflow-y-scroll scrollbar scrollbar-track-transparent scrollbar-thumb-black2'>
+    <main className='main-component'>
         <Availaible/>
 
         <div className='space-y-16'>
@@ -20,7 +19,7 @@ function Info(){
 
         <ul className="pt-24">
             <li className="text-white">
-                <h2 className="md:text-[3.6rem] text-2xl font-sec px-12 relative before:content-['01.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:translate-x-[-50%] before:left-0 ">Identifying the Problem</h2>
+                <h2 className="md:text-[3.6rem]  text-2xl font-sec px-12 relative before:content-['01.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:translate-x-[-50%] before:left-0 ">Identifying the Problem</h2>
                 <div className="border-l-4 border-grey1 px-12 py-16 space-y-8">
                     <p className="2xl:text-3xl sm:text-[2.4rem] text-white2 text-2xl leading-normal">
                         Technical founders and non-design 
@@ -47,7 +46,7 @@ function Info(){
                 </div>
             </li>
             <li className="text-white">
-                <h2 className="md:text-[3.6rem] text-2xl font-sec px-12 relative before:content-['02.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Introduction</h2>
+                <h2 className="md:text-[3.6rem]  text-2xl font-sec px-12 relative before:content-['02.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Introduction</h2>
                 <div className="border-l-4 border-grey1 px-12 py-16 space-y-8">
                     <p className="2xl:text-3xl sm:text-[2.4rem] text-white2 text-2xl leading-normal">
                     In order to execute the perfect plan I need to understand the ins and outs of the business, 
@@ -59,7 +58,7 @@ function Info(){
                 </div>
             </li>
             <li className="text-white">
-                <h2 className="md:text-[3.6rem] text-2xl font-sec px-12 relative before:content-['03.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Planning & Roadmap</h2>
+                <h2 className="md:text-[3.6rem]  text-2xl font-sec px-12 relative before:content-['03.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Planning & Roadmap</h2>
                 <div className="border-l-4 border-grey1 px-12 py-16 space-y-8">
                     <p className="2xl:text-3xl sm:text-[2.4rem] text-white2 text-2xl leading-normal">
                         This basically means getting all the ideas out in the open and getting it 
@@ -69,7 +68,7 @@ function Info(){
                 </div>
             </li>
             <li className="text-white">
-                <h2 className="md:text-[3.6rem] text-2xl font-sec px-12 relative before:content-['04.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Design, Prototype & Build</h2>
+                <h2 className="md:text-[3.6rem]  text-2xl font-sec px-12 relative before:content-['04.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Design, Prototype & Build</h2>
                 <div className="border-l-4 border-grey1 px-12 py-16 space-y-8">
                     <p className="2xl:text-3xl sm:text-[2.4rem] text-white2 text-2xl leading-normal">
                     The best solutions come from iteration. 
@@ -82,7 +81,7 @@ function Info(){
                 </div>
             </li>
             <li className="text-white">
-                <h2 className="md:text-[3.6rem] text-2xl font-sec px-12 relative before:content-['05.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Handover, Deploy & Launch</h2>
+                <h2 className="md:text-[3.6rem]  text-2xl font-sec px-12 relative before:content-['05.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Handover, Deploy & Launch</h2>
                 <div className="border-l-4 border-grey1 px-12 py-16 space-y-8">
                     <p className="2xl:text-3xl sm:text-[2.4rem] text-white2 text-2xl leading-normal">
                     You own all your code, once the project is ready to launch 
@@ -92,7 +91,7 @@ function Info(){
                 </div>
             </li>
             <li className="text-white">
-                <h2 className="md:text-[3.6rem] text-2xl font-sec px-12 relative before:content-['06.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Improve & Ongoing Support</h2>
+                <h2 className="md:text-[3.6rem]  text-2xl font-sec px-12 relative before:content-['06.'] before:text-xl before:md:text-[2.4rem] before:text-grey2 before:font-sec before:absolute before:left-0 before:translate-x-[-50%]">Improve & Ongoing Support</h2>
                 <div className="border-l-4 border-grey1 px-12 py-16 space-y-8">
                     <p className="2xl:text-3xl sm:text-[2.4rem] text-white2 text-2xl leading-normal">
                     Let's face it, software needs to constantly be improved and evolve with the times, 

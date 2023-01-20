@@ -26,9 +26,17 @@
 
 
 @layer components {
-    @media (min-width:768px) {
+    @media (min-width:768px) and (max-width:1280px) {
         .projects li:nth-child(2n+2){
            transform: translateY(10%);
         }
+    }
+
+    .home-main-component {
+        @apply xl:col-span-5 xl:col-start-4 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-5 lg:col-start-4 space-y-14 px-10;
+    }
+
+    .main-component{
+        @apply xl:col-span-5 xl:col-start-4 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-5 lg:col-start-4 space-y-14 px-10 overflow-y-scroll scrollbar-none scrollbar-track-transparent scrollbar-thumb-black2
     }
 }

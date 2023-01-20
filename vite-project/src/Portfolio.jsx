@@ -7,9 +7,9 @@ import { projects } from "./Projects";
 import Nav from "./Nav"
 
 
-let projectList = projects.map(project => {
+let projectList = projects.map((project,index) => {
     return (
-        <li className="xl:p-16 text-white text-2xl flex flex-col space-y-8 bg-black2 p-8">
+        <li key={index} className="lg:p-16 text-white text-2xl flex flex-col space-y-8 bg-black2 p-8">
             <h2 className="md:text-[2.4rem]">{project.title}</h2>
             <p className="text-white2 leading-normal">{project.desc}</p>
             <a href='https://google.com'>Visit</a>
@@ -18,9 +18,10 @@ let projectList = projects.map(project => {
 })
 
 
+
 function Info(){
     return (
-        <main className='xl:col-span-6 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 px-10 overflow-y-scroll scrollbar scrollbar-track-transparent scrollbar-thumb-black2'>
+        <main className='main-component'>
             <Availaible/>
 
             <div className='md:w-4/5 space-y-16'>

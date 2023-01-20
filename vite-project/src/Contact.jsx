@@ -7,10 +7,12 @@ import Form from "./Form";
 import about from './assets/about.png'
 
 
+
+
 function Info(){
     return (
 
-        <main className='xl:col-span-6 lg:py-20 lg:flex lg:flex-col lg:justify-between lg:col-span-6 space-y-14 px-10 overflow-y-scroll scrollbar-none scrollbar-track-transparent scrollbar-thumb-black2'>
+        <main className='main-component'>
             <Availaible/>
 
             <div className='md:w-4/5 space-y-16'>

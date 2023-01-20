@@ -9,8 +9,6 @@ export default function Form(){
         service: ''
     })
 
-    console.log(formData)
-
     function handleChange(e){
 
         changeFormData(oldData => {
@@ -28,6 +26,7 @@ export default function Form(){
         formReset()
         
     }
+    
 
     function formReset(){
         changeFormData(oldData => {
