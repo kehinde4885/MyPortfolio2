@@ -12,6 +12,7 @@ import netlify from "./assets/netlify.svg"
 import notion from "./assets/notion.svg"
 import tailwind from "./assets/tailwind.svg"
 import vite from "./assets/vitejs.svg"
+import webpack from "./assets/WebPack.svg"
 
 
 function Info(){
@@ -55,6 +56,10 @@ function Info(){
                     <li className="px-10 py-16 flex flex-col justify-center items-center space-y-4 bg-black2">
                         <img className="w-20 aspect-square" src={vite} alt="" />
                         <p className="text-2xl text-white1">Vite</p>
+                    </li>
+                    <li className="px-10 py-16 flex flex-col justify-center items-center space-y-4 bg-black2">
+                        <img className="w-20 aspect-square" src={webpack} alt="" />
+                        <p className="text-2xl text-white1">Webpack</p>
                     </li>
                     
                 </ul>

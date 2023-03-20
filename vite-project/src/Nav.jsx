@@ -14,9 +14,9 @@ export default function Nav(props){
                 {state === 'tech' ? '' :<li className="md:basis-auto  basis-1/3"><Link to="/tech">tech</Link></li>}
             </ul>
             <ul className='flex space-x-8 text-[16px]'>
-                <li><a href='https://www.linkedin.com/in/kehindemalagu/'><i className="fa-brands fa-linkedin"></i></a></li>
-                <li><a href='https://twitter.com/KehindeTM'><i className="fa-brands fa-twitter"></i></a></li>
-                <li><a href='https://github.com/kehinde4885'><i className="fa-brands fa-github"></i></a></li>
+                <li><a href='https://www.linkedin.com/in/kehindemalagu/' target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
+                <li><a href='https://twitter.com/KehindeTM' target="_blank"><i className="fa-brands fa-twitter"></i></a></li>
+                <li><a href='https://github.com/kehinde4885' target="_blank"><i className="fa-brands fa-github"></i></a></li>
             </ul>
         </nav>
     )

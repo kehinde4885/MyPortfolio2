@@ -15,7 +15,7 @@ function Info(){
             <h1 className='2xl:text-6xl lg:text-[4.8rem] md:text-6xl sm:text-[4.8rem] sm:leading-none uppercase text-3xl leading-snug font-sec text-white'>I'm Kehinde Jolayemi - a React Developer.</h1>
             <p className='2xl:text-3xl 2xl:leading-snug md:min-w-fit sm:text-[2.4rem] text-2xl text-white2 leading-snug'>I work with technical founders, 
                 startups and established product teams
-                as your design-drivezn interface development partner and advisor.
+                as your design-driven interface development partner and advisor.
             </p>
         </div>
 
